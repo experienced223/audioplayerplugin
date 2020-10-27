@@ -1,0 +1,40 @@
+/* music player */
+.mejs-container, .mejs-embed, .mejs-embed body, .mejs-container .mejs-controls {
+    background: red !important;
+}
+/* remove volume control */
+.mejs-horizontal-volume-slider, .mejs-volume-button {
+	display: none !important;
+}
+
+.mejs-controls {
+	padding:0!important;
+	padding-right:5px!important;
+}
+
+/* player original scroll track */
+.player-original .mejs-controls .mejs-time-rail .mejs-time-current {
+    background: #757575 !important;
+}
+
+/* player mastered scroll track */
+.player-mastered .mejs-controls .mejs-time-rail .mejs-time-current {
+    background: #881401!important;
+}
+
+/* player background */
+.mejs-container, .mejs-embed, .mejs-embed body, .mejs-container .mejs-controls {
+    background: #000!important;
+}
+
+/* player buffer */
+.mejs-time-loaded {
+    background: transparent!important;
+}
+
+/* cookie notice button*/
+.cn-button.bootstrap {
+    color: #fff;
+    background: #881401;
+	border-radius:50%;
+}
